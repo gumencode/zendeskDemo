@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040E73572733C90E0097146E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E73562733C90E0097146E /* AppDelegate.m */; };
+		040E735A2733C90E0097146E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E73592733C90E0097146E /* SceneDelegate.m */; };
+		040E735D2733C90E0097146E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E735C2733C90E0097146E /* ViewController.m */; };
+		040E73602733C90E0097146E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E735E2733C90E0097146E /* Main.storyboard */; };
+		040E73622733C9100097146E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040E73612733C9100097146E /* Assets.xcassets */; };
+		040E73652733C9100097146E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E73632733C9100097146E /* LaunchScreen.storyboard */; };
+		040E73682733C9100097146E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E73672733C9100097146E /* main.m */; };
+		040E737D2733C9930097146E /* EXZendeskChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E737C2733C9930097146E /* EXZendeskChatManager.m */; };
+		040E73862733CA830097146E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040E73882733CA830097146E /* Localizable.strings */; };
+		040E738D2733CAF20097146E /* EXLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E738B2733CAF10097146E /* EXLanguageManager.m */; };
+		040E73902733CB060097146E /* EXLanguageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E738E2733CB060097146E /* EXLanguageItem.m */; };
+		040E73942733E61C0097146E /* FTPopOverMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E73932733E61C0097146E /* FTPopOverMenu.m */; };
+		040E73952733EA3F0097146E /* ChatProvidersSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040E73712733C9770097146E /* ChatProvidersSDK.xcframework */; };
+		040E73962733EA3F0097146E /* ChatProvidersSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 040E73712733C9770097146E /* ChatProvidersSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		040E73982733EA400097146E /* ChatSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040E73742733C9770097146E /* ChatSDK.xcframework */; };
+		040E73992733EA400097146E /* ChatSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 040E73742733C9770097146E /* ChatSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		040E739A2733EA410097146E /* CommonUISDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040E73732733C9770097146E /* CommonUISDK.xcframework */; };
+		040E739B2733EA410097146E /* CommonUISDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 040E73732733C9770097146E /* CommonUISDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		040E739C2733EA430097146E /* MessagingAPI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040E73722733C9770097146E /* MessagingAPI.xcframework */; };
+		040E739D2733EA430097146E /* MessagingAPI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 040E73722733C9770097146E /* MessagingAPI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		040E739E2733EA440097146E /* MessagingSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040E73702733C9770097146E /* MessagingSDK.xcframework */; };
+		040E739F2733EA440097146E /* MessagingSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 040E73702733C9770097146E /* MessagingSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		040E73A02733EA450097146E /* SDKConfigurations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040E736F2733C9770097146E /* SDKConfigurations.xcframework */; };
+		040E73A12733EA450097146E /* SDKConfigurations.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 040E736F2733C9770097146E /* SDKConfigurations.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		040E73972733EA3F0097146E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				040E739F2733EA440097146E /* MessagingSDK.xcframework in Embed Frameworks */,
+				040E73992733EA400097146E /* ChatSDK.xcframework in Embed Frameworks */,
+				040E739B2733EA410097146E /* CommonUISDK.xcframework in Embed Frameworks */,
+				040E73A12733EA450097146E /* SDKConfigurations.xcframework in Embed Frameworks */,
+				040E73962733EA3F0097146E /* ChatProvidersSDK.xcframework in Embed Frameworks */,
+				040E739D2733EA430097146E /* MessagingAPI.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		040E73522733C90E0097146E /* zendeskChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zendeskChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040E73552733C90E0097146E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040E73562733C90E0097146E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040E73582733C90E0097146E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		040E73592733C90E0097146E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		040E735B2733C90E0097146E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040E735C2733C90E0097146E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040E735F2733C90E0097146E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040E73612733C9100097146E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040E73642733C9100097146E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040E73662733C9100097146E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040E73672733C9100097146E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040E736F2733C9770097146E /* SDKConfigurations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SDKConfigurations.xcframework; sourceTree = "<group>"; };
+		040E73702733C9770097146E /* MessagingSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MessagingSDK.xcframework; sourceTree = "<group>"; };
+		040E73712733C9770097146E /* ChatProvidersSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ChatProvidersSDK.xcframework; sourceTree = "<group>"; };
+		040E73722733C9770097146E /* MessagingAPI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MessagingAPI.xcframework; sourceTree = "<group>"; };
+		040E73732733C9770097146E /* CommonUISDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CommonUISDK.xcframework; sourceTree = "<group>"; };
+		040E73742733C9770097146E /* ChatSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ChatSDK.xcframework; sourceTree = "<group>"; };
+		040E737B2733C9930097146E /* EXZendeskChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXZendeskChatManager.h; sourceTree = "<group>"; };
+		040E737C2733C9930097146E /* EXZendeskChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXZendeskChatManager.m; sourceTree = "<group>"; };
+		040E737E2733CA3A0097146E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		040E737F2733CA3A0097146E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		040E73802733CA450097146E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		040E73812733CA450097146E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		040E73832733CA4C0097146E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		040E73872733CA830097146E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		040E73892733CA840097146E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		040E738A2733CA870097146E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		040E738B2733CAF10097146E /* EXLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXLanguageManager.m; sourceTree = "<group>"; };
+		040E738C2733CAF20097146E /* EXLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXLanguageManager.h; sourceTree = "<group>"; };
+		040E738E2733CB060097146E /* EXLanguageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXLanguageItem.m; sourceTree = "<group>"; };
+		040E738F2733CB060097146E /* EXLanguageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXLanguageItem.h; sourceTree = "<group>"; };
+		040E73922733E61C0097146E /* FTPopOverMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPopOverMenu.h; sourceTree = "<group>"; };
+		040E73932733E61C0097146E /* FTPopOverMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPopOverMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040E734F2733C90E0097146E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040E73982733EA400097146E /* ChatSDK.xcframework in Frameworks */,
+				040E739E2733EA440097146E /* MessagingSDK.xcframework in Frameworks */,
+				040E739C2733EA430097146E /* MessagingAPI.xcframework in Frameworks */,
+				040E73A02733EA450097146E /* SDKConfigurations.xcframework in Frameworks */,
+				040E739A2733EA410097146E /* CommonUISDK.xcframework in Frameworks */,
+				040E73952733EA3F0097146E /* ChatProvidersSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040E73492733C90E0097146E = {
+			isa = PBXGroup;
+			children = (
+				040E73542733C90E0097146E /* zendeskChatDemo */,
+				040E73532733C90E0097146E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040E73532733C90E0097146E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040E73522733C90E0097146E /* zendeskChatDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040E73542733C90E0097146E /* zendeskChatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				040E73912733E61C0097146E /* FTPopOverMenu */,
+				040E736E2733C9770097146E /* ZendeskChatSDK */,
+				040E73552733C90E0097146E /* AppDelegate.h */,
+				040E73562733C90E0097146E /* AppDelegate.m */,
+				040E73582733C90E0097146E /* SceneDelegate.h */,
+				040E73592733C90E0097146E /* SceneDelegate.m */,
+				040E735B2733C90E0097146E /* ViewController.h */,
+				040E735C2733C90E0097146E /* ViewController.m */,
+				040E737B2733C9930097146E /* EXZendeskChatManager.h */,
+				040E737C2733C9930097146E /* EXZendeskChatManager.m */,
+				040E738F2733CB060097146E /* EXLanguageItem.h */,
+				040E738E2733CB060097146E /* EXLanguageItem.m */,
+				040E738C2733CAF20097146E /* EXLanguageManager.h */,
+				040E738B2733CAF10097146E /* EXLanguageManager.m */,
+				040E73882733CA830097146E /* Localizable.strings */,
+				040E735E2733C90E0097146E /* Main.storyboard */,
+				040E73612733C9100097146E /* Assets.xcassets */,
+				040E73632733C9100097146E /* LaunchScreen.storyboard */,
+				040E73662733C9100097146E /* Info.plist */,
+				040E73672733C9100097146E /* main.m */,
+			);
+			path = zendeskChatDemo;
+			sourceTree = "<group>";
+		};
+		040E736E2733C9770097146E /* ZendeskChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				040E73712733C9770097146E /* ChatProvidersSDK.xcframework */,
+				040E73742733C9770097146E /* ChatSDK.xcframework */,
+				040E73732733C9770097146E /* CommonUISDK.xcframework */,
+				040E73722733C9770097146E /* MessagingAPI.xcframework */,
+				040E73702733C9770097146E /* MessagingSDK.xcframework */,
+				040E736F2733C9770097146E /* SDKConfigurations.xcframework */,
+			);
+			path = ZendeskChatSDK;
+			sourceTree = "<group>";
+		};
+		040E73912733E61C0097146E /* FTPopOverMenu */ = {
+			isa = PBXGroup;
+			children = (
+				040E73922733E61C0097146E /* FTPopOverMenu.h */,
+				040E73932733E61C0097146E /* FTPopOverMenu.m */,
+			);
+			path = FTPopOverMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040E73512733C90E0097146E /* zendeskChatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040E736B2733C9100097146E /* Build configuration list for PBXNativeTarget "zendeskChatDemo" */;
+			buildPhases = (
+				040E734E2733C90E0097146E /* Sources */,
+				040E734F2733C90E0097146E /* Frameworks */,
+				040E73502733C90E0097146E /* Resources */,
+				040E73972733EA3F0097146E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zendeskChatDemo;
+			productName = zendeskChatDemo;
+			productReference = 040E73522733C90E0097146E /* zendeskChatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040E734A2733C90E0097146E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					040E73512733C90E0097146E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 040E734D2733C90E0097146E /* Build configuration list for PBXProject "zendeskChatDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+				ja,
+			);
+			mainGroup = 040E73492733C90E0097146E;
+			productRefGroup = 040E73532733C90E0097146E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040E73512733C90E0097146E /* zendeskChatDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040E73502733C90E0097146E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040E73652733C9100097146E /* LaunchScreen.storyboard in Resources */,
+				040E73862733CA830097146E /* Localizable.strings in Resources */,
+				040E73622733C9100097146E /* Assets.xcassets in Resources */,
+				040E73602733C90E0097146E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040E734E2733C90E0097146E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040E735D2733C90E0097146E /* ViewController.m in Sources */,
+				040E73572733C90E0097146E /* AppDelegate.m in Sources */,
+				040E73902733CB060097146E /* EXLanguageItem.m in Sources */,
+				040E73682733C9100097146E /* main.m in Sources */,
+				040E73942733E61C0097146E /* FTPopOverMenu.m in Sources */,
+				040E737D2733C9930097146E /* EXZendeskChatManager.m in Sources */,
+				040E738D2733CAF20097146E /* EXLanguageManager.m in Sources */,
+				040E735A2733C90E0097146E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040E735E2733C90E0097146E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040E735F2733C90E0097146E /* Base */,
+				040E737E2733CA3A0097146E /* zh-Hant */,
+				040E73802733CA450097146E /* ja */,
+				040E73832733CA4C0097146E /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040E73632733C9100097146E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040E73642733C9100097146E /* Base */,
+				040E737F2733CA3A0097146E /* zh-Hant */,
+				040E73812733CA450097146E /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		040E73882733CA830097146E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040E73872733CA830097146E /* en */,
+				040E73892733CA840097146E /* zh-Hant */,
+				040E738A2733CA870097146E /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040E73692733C9100097146E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040E736A2733C9100097146E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040E736C2733C9100097146E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47V955XL5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zendeskChatDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgx.exchangenew.zendeskChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040E736D2733C9100097146E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47V955XL5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zendeskChatDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgx.exchangenew.zendeskChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040E734D2733C90E0097146E /* Build configuration list for PBXProject "zendeskChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040E73692733C9100097146E /* Debug */,
+				040E736A2733C9100097146E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040E736B2733C9100097146E /* Build configuration list for PBXNativeTarget "zendeskChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040E736C2733C9100097146E /* Debug */,
+				040E736D2733C9100097146E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040E734A2733C90E0097146E /* Project object */;
+}

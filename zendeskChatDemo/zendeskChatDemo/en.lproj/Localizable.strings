@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  zendeskChatDemo
+
+  Created by mac on 2021/11/4.
+  
+*/
+"切換語言" = "language";
+"開始聊天" = "chat";
